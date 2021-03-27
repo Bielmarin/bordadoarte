@@ -1,0 +1,227 @@
+body {
+    height:100%;
+    margin: 0px 20px 0px 20px;
+}
+.cabecalho {
+    height: 140px;
+    background-color: rgb(233, 233, 233);
+    margin-top: 10px;
+    border-radius: 10px;
+    justify-content:center;
+    align-items:center;
+    display: flex;
+    text-align: center;
+}
+h1 {
+    font-family: 'Changa one', cursive;
+    color: #24A8F4;
+}
+.areavideo {
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height:550px;
+}
+button {
+    margin-top:20px;
+    margin-bottom: 20px;
+    border: 0;
+    width: 300px;
+    height: 50px;
+    cursor: pointer;
+    font-size: 18px;
+    color: #fff;
+    background-color: #31B6B2;
+    border-radius: 5px; 
+}
+.compra {
+    width: 270px;
+    height: 35px; 
+}
+button:hover {
+    background-color: rgb(165, 197, 192);
+  }
+h2 {
+    margin-top:-15px;
+    color:palevioletred;
+}
+.area2 {
+    flex-direction: column;
+    align-items: center;
+    display:flex;
+    height:620px;
+    background-color:#f3c8c9;
+    padding: 0px 200px 0px 200px;
+    font-size: 20px;
+
+}
+.textoa2 {
+    color:black;
+    text-align: center;
+}
+.area3 {
+    display:flex;
+    justify-content: center;
+    height:390px;
+}
+.area4 {
+    display:flex;
+    height:650px;
+    background-color:#f3c8c9;
+    justify-content: space-between;
+}
+.aula1 {
+    width: 40%;
+}
+.aula2 {
+    width: 40%;
+}
+.tituloa3 {
+    display:flex;
+    justify-content: center;
+}
+ul {
+    font-size: 30px;
+    list-style:none;
+}
+.material-icons {
+    color:#fff;
+    background-color:green;
+    border-radius:50%;
+    border:2px solid green;
+}
+.dep1 {
+    width: 25%;
+}
+.dep2 {
+    width: 55%;
+}
+.tituloa4 {
+    background-color:#f3c8c9;
+    display:flex;
+    justify-content: center;
+}
+.ft2 img {
+    width: 650px;
+    height: 190px;
+}
+.ft1 img {
+    width: 500px;
+    height: 190px;
+}
+.botao2 {
+    background-color: #f3c8c9;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    height: 150px;
+}
+.botao4 {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    height: 150px;
+}
+.botao3 {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    height: 110px;
+}
+.area5 {
+    display:flex;
+    flex-direction: column;
+    height:700px;
+    
+}
+.area6 {
+    height:780px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;
+    text-align: center;    
+}
+.imga5 {
+    display:flex;
+    justify-content: center;
+}
+.ft {
+    width: 350px;
+    height: 250px;
+}
+.textoa5 {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:column;
+}
+.garantiaf {
+    color:black;
+    margin-top: 20px;
+    line-height: 40px;
+  }
+.textoextra {
+      display:flex;
+      justify-content: center;
+  }
+.ftextra {
+    display:flex;
+    justify-content:center;
+    height:400px;
+    margin-top: 20px;
+}
+.extra1 {
+    display:flex;
+    flex-direction: column;
+}
+.extra2 {
+    display:flex;
+    flex-direction: column;
+}
+.extra3 {
+    display:flex;
+    flex-direction: column;
+}
+h3 {
+    width:250px;
+}
+.extra1 img {
+    width: 200px;
+}
+.extra2 img {
+    width: 200px;
+}
+
+.extra3 img {
+    width: 200px;
+}
+
+.extra2 h2 {
+    padding-left: 35px;
+}
+.extra3 h2 {
+    padding-left: 35px;
+}
+.ftextra2 {
+    height:580px;
+    background-color:#f3c8c9;
+    padding: 5px 200px 0px 200px;
+    font-size: 20px;
+    line-height: -10px;
+}
+.textoapreender {
+    margin-top:20px;
+    line-height: -10px;
+    text-align: center;
+    color:black;
+    font-size: 30px;
+}
+footer {
+    height: 30px;
+    background-color: #f3c8c9;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}

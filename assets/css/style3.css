@@ -1,0 +1,139 @@
+body {
+    margin: 0px 20px 0px 20px;
+}
+.container {    
+    display: grid;
+    grid-template-areas:
+    "titulo"
+    "area1"
+    "area2"
+    "area3"
+    "area4"
+    "area5"
+    "area6"
+    "area7"
+    "area8"
+    "footer"
+    ;
+}
+.titulo {
+    grid-area: titulo;
+    display:flex;
+    background-color: rgb(233, 233, 233);
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.area1 {
+    grid-area: area1;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.area1 img {
+    width: 270px;
+    height: 35px; 
+}
+.area1 h2 {
+    color:palevioletred;
+}
+.area1 button {
+    border: 0;
+    width: 300px;
+    height: 50px;
+    cursor: pointer;
+    font-size: 18px;
+    color: #fff;
+    background-color: #31B6B2;
+    border-radius: 5px; 
+    outline: 0;
+    margin-top:20px;
+    margin-bottom: 20px;
+}
+.video {
+    border-radius:5px;
+}
+button:hover {
+    background-color: rgb(165, 197, 192);
+}
+.area2 {
+    grid-area: area2;
+    display:block;
+    background-color:#f3c8c9;
+    justify-content: center;
+    align-items: center;
+}
+.area3 {
+    grid-area: area3;
+    display: flex;
+    flex-direction: column;
+}
+.area3 .lista {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 30px;
+}
+ul {
+    list-style:none;
+}
+.material-icons {
+    color:#fff;
+    background-color:green;
+    border-radius:50%;
+    border:2px solid green;
+}
+.area3 .area3t {
+ display:flex;
+ justify-content:center;
+}
+.area4 {
+    grid-area: area4;
+    display: flex;
+    flex-direction: column;
+}
+.area4 .area4t {
+    margin-bottom: 20px;
+    display:flex;
+    justify-content:center;
+}
+.area4 .acesso {
+    display:flex;
+}
+.acessox {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+.acessox .acessoxh3 {
+    margin: 0px 40px;
+    text-align: center;
+}
+.acesso img {
+    width: 200px;
+}
+.area5 {
+    grid-area: area5;
+    background-color:#f3c8c9;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+}
+.area6 {
+    grid-area: area6;
+    background-color:#f3c8c9;
+}
+.area7 {
+    grid-area: area7;
+}
+.area8 {
+    grid-area: area8;
+    background-color:#f3c8c9;
+}
+.footer {
+    grid-area: footer;
+}
+
